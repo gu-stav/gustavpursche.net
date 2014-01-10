@@ -9,6 +9,7 @@
   "author": "Gustav Pursche",
   "license": "ISC",
   "dependencies": {
-    "express": "~3.4.7"
+    "express": "~3.4.7",
+    "jade": "~1.1.4"
   }
 }

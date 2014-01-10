@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: #333;
+  font-size: 16px;
+  font-family: Georgia;
+  line-height: 1.5;
+}
+
+address {
+  font-style: normal;
+}
+
+address span {
+  display: block;
+}
