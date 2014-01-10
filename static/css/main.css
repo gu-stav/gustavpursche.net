@@ -9,10 +9,34 @@ html {
   line-height: 1.5;
 }
 
+a {
+  color: #333;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
 address {
   font-style: normal;
 }
 
-address span {
+address > p > span {
   display: block;
+}
+
+address i.fa {
+  margin: 0 .5em 0 0;
+}
+
+.app {
+  margin: 1em 2em;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.about_address {
+  margin: 2em 0 0 0;
 }
