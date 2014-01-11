@@ -1,14 +1,17 @@
 doctype html
 html(lang="en")
   head
-    link( href='http://fonts.googleapis.com/css?family=Open+Sans:300',
-          rel='stylesheet',
-          type='text/css' )
+    if enviroment == 'production'
+      link( rel="stylesheet",
+            type="text/css",
+            href="/static/dist/all.min.css",
+            media="screen" )
 
-    link( rel="stylesheet",
-          type="text/css",
-          href="/static/dist/all.min.css",
-          media="screen" )
+    if enviroment == 'development'
+      link( rel="stylesheet",
+            type="text/css",
+            href="/static/css/main.css",
+            media="screen" )
 
     meta( charset="utf-8" )
     meta( name="viewport",
@@ -21,26 +24,15 @@ html(lang="en")
         h1.about__headline Photojournalist, Webdeveloper &<br/> Thinker.
 
         address.about_address
-          p
-            span Gustav Pursche
-            span Kleine Neugasse 16 / 10
-            span 1040 Wien
-
           p.about__email
-            span gustavpursche@gmail.com
+            span.
+              <a href='mailto:gustavpursche@gmail.com'>gustavpursche@gmail.com</a>
+          p.about__pgp
+            span.about__fingerprint Fingerprint
+            span.about__fingerprint 38FF 8C48 4519 CB62 00D6  B230 9D8B AF7E FCE9 03FF
 
-          p.about__social-media
-            span
-              i.fa.fa-skype(title='skype')
-              span gustav.pursche
-            span
-              i.fa.fa-twitter(title='twitter')
-              a(href="https://twitter.com/gustavpursche") @gustavpursche
-            span
-              i.fa.fa-github(title='github')
-              a(href="https://github.com/gustavpursche") gustavpursche
-
-          p.about__website
-            span
-              i.fa.fa-camera-retro
-              a(href="http://visual-rebellion.com") visual.rebellion
+          p.about__social-media.
+            Follow me on
+            <a href="https://twitter.com/gustavpursche">twitter</a>,
+            <a href="https://github.com/gustavpursche")>github</a> &
+            <a href="http://visual-rebellion.com">visual.rebellion</a>.

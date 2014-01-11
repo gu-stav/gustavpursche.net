@@ -3,9 +3,7 @@ var gulp = require('gulp'),
     minifyCSS = require('gulp-minify-css');
 
 gulp.task('minify-css', function() {
-  gulp.src(['./static/css/font-awesome.min.css',
-            './static/css/normalize.css',
-            './static/css/main.css'])
+  gulp.src(['./static/css/main.css'])
     .pipe( concat("all.min.css") )
     .pipe( minifyCSS() )
     .pipe( gulp.dest("./static/dist/") )

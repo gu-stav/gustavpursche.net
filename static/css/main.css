@@ -5,16 +5,21 @@
 html {
   color: #333;
   font-size: 16px;
-  font-family: Georgia;
+  font-family: Arial, sans-serif;
   line-height: 1.5;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 a {
-  color: #333;
+  color: rgb(0, 0, 238);
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Courier, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
 }
@@ -23,12 +28,12 @@ address {
   font-style: normal;
 }
 
-address > p > span {
-  display: block;
+address > p {
+  margin: 0 0 1em 0;
 }
 
-address i.fa {
-  margin: 0 .5em 0 0;
+address > p > span {
+  display: block;
 }
 
 .app {
@@ -38,5 +43,10 @@ address i.fa {
 }
 
 .about_address {
-  margin: 2em 0 0 0;
+  margin: 1em 0 0 0;
+}
+
+.about__fingerprint {
+  font-family: Courier;
+  font-size: .667em;
 }

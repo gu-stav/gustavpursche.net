@@ -6,7 +6,9 @@ app.set('views', __dirname + '/views');
 app.use('/static', express.static(__dirname + '/static'));
 app.disable('x-powered-by');
 
-app.get('/', function(req, res) {
+app.locals.enviroment = process.env.ENV || 'production';
+
+app.get('/', function( req, res ) {
   res.render('index');
 });
 
