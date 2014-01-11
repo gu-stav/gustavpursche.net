@@ -12,6 +12,10 @@
     "express": "~3.4.7",
     "jade": "~1.1.4",
     "gulp-minify-css": "~0.1.0",
-    "gulp-concat": "~2.1.7"
+    "gulp-concat": "~2.1.7",
+    "wd": "~0.2.8",
+    "colors": "~0.6.2",
+    "chai-as-promised": "~4.1.0",
+    "chai": "~1.8.1"
   }
 }
