@@ -4,9 +4,11 @@
 
 html{
 	color:#333;
-	font-size:16px;
-	font-family:Arial,sans-serif;
-	line-height:1.5
+	font-size:14px;
+	font-family: Georgia, Arial,sans-serif;
+	line-height:1.45;
+	margin: 0;
+	padding: 0;
 }
 
 body{
@@ -24,10 +26,11 @@ a:hover,a:focus{
 	background-color:#FFEDBE
 }
 
-h1{
-	font-family:Courier,sans-serif;
-	font-size:1.5em;
-	font-weight:300
+h1,
+h2{
+	font-family:Arial,sans-serif;
+	font-size:1.6em;
+	font-weight:bold;
 }
 
 address{
@@ -43,9 +46,9 @@ address>p>span{
 }
 
 .app{
-	margin:1em 2em;
 	font-size:1em;
-	padding:1em
+	max-width: 35em;
+	padding: 1.5em 2em;
 }
 
 .about_address{
