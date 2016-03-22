@@ -66,4 +66,6 @@ address > p > span {
 
 .about__pgp {
 	font-family: Courier;
+	margin-bottom: 2rem;
+	margin-top: 2.5rem;
 }
