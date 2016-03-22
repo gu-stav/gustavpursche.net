@@ -64,20 +64,6 @@ address > p > span {
 	padding: .5em 0;
 }
 
-.about_address {
-	margin: 1em 0 0
-}
-
 .about__pgp {
 	font-family: Courier;
-	font-size: .667em
-}
-
-.header {
-	margin: 1em auto .5em auto;
-	max-width: 50em;
-}
-
-.header img {
-	max-width: 100%;
 }
