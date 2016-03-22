@@ -53,24 +53,24 @@ address > p {
 	margin: 0 0 1em
 }
 
-address>p>span {
-	display:block
+address > p > span {
+	display: block
 }
 
 .app {
-	font-size:1em;
+	font-size: 1em;
 	margin: 0 auto;
-	max-width: 50em;
+	max-width: 55em;
 	padding: .5em 0;
 }
 
 .about_address {
-	margin:1em 0 0
+	margin: 1em 0 0
 }
 
 .about__pgp {
-	font-family:Courier;
-	font-size:.667em
+	font-family: Courier;
+	font-size: .667em
 }
 
 .header {
